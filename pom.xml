@@ -25,5 +25,6 @@
     <module>library-management-system</module>
         <module>amazon-lld</module>
         <module>stack-overflow</module>
+        <module>bookmyshow</module>
     </modules>
 </project>
