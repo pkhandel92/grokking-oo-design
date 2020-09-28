@@ -1,14 +1,24 @@
 package com.amazon.cart;
 
+import java.util.List;
+
 import com.amazon.account.User;
 import com.amazon.account.Vendor;
 import com.amazon.item.Product;
 
-import java.util.List;
-
 public interface IShoppingCart {
-    public void addToCart(Product product, Vendor vendor);
-    public void removeFromCart(Product product,Vendor vendor);
-    public List<Product> viewCart(User user);
-    public void editCart(Product product,User user,int quantity);
+
+  /*
+   * The data class Product already contains Vendor details, maybe the second parameter could be removed
+   */
+  void addToCart(Product product, Vendor vendor);
+
+  void editCart(Product product, User user, int quantity);
+
+  /*
+   * Vendor might not be required to remove product.
+   */
+  void removeFromCart(Product product, Vendor vendor);
+
+  List<Product> viewCart(User user);
 }
