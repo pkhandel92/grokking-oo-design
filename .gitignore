@@ -1,0 +1,17 @@
+*target/
+*.classpath
+*.settings*
+*.prefs
+*.project
+*.log
+*bin/*
+*db_configuration.properties
+/doc/
+*.pydevproject
+**/.vscode/
+*.jar
+*.idea*
+*.iml
+*.sts4-cache*
+*/Barra/BarraOptimizer8.7/*
+**/bin/*
