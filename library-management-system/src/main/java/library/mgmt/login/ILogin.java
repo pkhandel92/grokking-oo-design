@@ -14,5 +14,9 @@ public interface ILogin {
     public boolean changePass(String uid,CharSequence currPass,CharSequence changePass);
     public String forgetPass(IAccount uid);
 
+    /* 
+     * This method should not exist here, based on the comments written on top. 
+     * It should go to signup interface. 
+     */
     public boolean createAccount(String uid, String name, String address, String email, AccountType accountType);
 }
