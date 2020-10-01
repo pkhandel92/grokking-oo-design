@@ -13,6 +13,12 @@ public class Booking {
     private String paymentId;
     private String bookingStatus;
     private int bookingCode;
+    /*
+     * SeatAvailabilityResponse is not related to post booking status. This is not important in context of Booking. Once
+     * a booking is done, seat availability is irrelevant.
+     * If this class is being used for pre-booking search/filter, as well as final booking status, it's breaking single responsibility principle.
+     * If not, then this field could be removed.
+     */
     private SeatAvailabilityResponse seatAvailabilityResponse;
 
     public SeatAvailabilityResponse getSeatAvailabilityResponse() {
