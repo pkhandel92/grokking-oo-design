@@ -14,6 +14,7 @@ public interface IInventoryService {
 
   /*
    * Vendor might not be required to remove product.
+   * We need to go back to db
    */
   void removeProduct(Product product, Vendor vendor);
 

@@ -19,7 +19,7 @@ DB DESIGN
     
     INVENTORY
     
-    |PID|VID|DISCOUNT|ITEMS REMAINING|
+    |InventoryId|PID|VID|DISCOUNT|ITEMS REMAINING|
     
     Think of search queries
     1) Find all products based on category 

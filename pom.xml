@@ -26,5 +26,12 @@
         <module>amazon-lld</module>
         <module>stack-overflow</module>
         <module>bookmyshow</module>
+        <module>airline-mgmgt-system</module>
+        <module>hotel-management-system</module>
+        <module>parking-lot</module>
+        <module>splitwise</module>
+        <module>splitwise-system</module>
+        <module>chess</module>
+        <module>restaurant-management-system</module>
     </modules>
 </project>
