@@ -11,4 +11,5 @@ public interface IMovieSearchService {
     public List<Movie> searchByReleaseDate(Date releaseDate);
     public List<Movie> searchByGenre(MovieGenre genre);
     public List<Movie> searchByLocation(String location);
+    // Maybe a method to search by language could be added.
 }

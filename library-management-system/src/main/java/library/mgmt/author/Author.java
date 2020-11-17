@@ -9,6 +9,10 @@ public class Author {
     private String name;
     private Date dob;
     private String authorId;
+    /*
+     *  The only use of this class can be seen as a field in class Book.
+     *  If that's the case, the field booksAuthored here is redundant. Book already has a reference to author.
+     */
     private List<Book> booksAuthored;
 
     public String getName() {
