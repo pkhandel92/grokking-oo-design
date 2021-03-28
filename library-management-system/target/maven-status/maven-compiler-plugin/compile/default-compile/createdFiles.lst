@@ -23,3 +23,4 @@ library\mgmt\book\Book.class
 library\mgmt\account\AccountTypeFactory.class
 library\mgmt\lending\ILendingService.class
 library\mgmt\lending\ILendingDao.class
+library\mgmt\rest\BookRestService.class

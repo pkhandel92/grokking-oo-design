@@ -13,7 +13,7 @@ public class SearchServiceImpl implements ISearchService {
     @Override
     public SearchResponse<SearchCriteriaResponse> search(SearchRequest<? extends SearchCriteria> criteria) {
         SearchCriteria searchCriteria=criteria.getCriteria();
-        SearchFacade<? extends SearchCriteria> searchFacade=null;
+        SearchFacade<SearchCriteria> searchFacade=null;
         try {
             searchFacade= SearchFacadeFactory.getSearchFacade(searchCriteria);
         } catch (Exception e) {
